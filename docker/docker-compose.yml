@@ -11,6 +11,10 @@ volumes:
 services:
   nwaku1:
     image: nwaku:latest
+    logging:
+      options:
+        max-size: '10m'
+        max-file: '3'
     container_name: 'nwaku1'
     hostname: 'nwaku1'
     ports:
@@ -38,6 +42,10 @@ services:
 
   nwaku2:
     image: nwaku:latest
+    logging:
+      options:
+        max-size: '10m'
+        max-file: '3'
     container_name: 'nwaku2'
     hostname: 'nwaku2'
     ports:

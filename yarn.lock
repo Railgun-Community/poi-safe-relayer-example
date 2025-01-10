@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
-"@adraffy/ens-normalize@1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@adraffy/ens-normalize/-/ens-normalize-1.9.2.tgz#60111a5d9db45b2e5cbb6231b0bb8d97e8659316"
-  integrity sha512-0h+FrQDqe2Wn+IIGFkTCd4aAwTJ+7834Ek1COohCyV26AXhwQ7WQaz+4F/nLOeVl/3BtWHOHLPsq46V8YB46Eg==
+"@adraffy/ens-normalize@1.10.1":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@adraffy/ens-normalize/-/ens-normalize-1.10.1.tgz#63430d04bd8c5e74f8d7d049338f1cd9d4f02069"
+  integrity sha512-96Z2IP3mYmF1Xg2cDm8f1gWGf/HUVedQ3FMifV4kG/PQ4yEP51xDtRAEfhVNt5f/uzpNkZHwWQuUcu6D6K+Ekw==
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
@@ -1105,30 +1105,27 @@
   dependencies:
     "@noble/hashes" "1.3.1"
 
+"@noble/curves@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@noble/curves/-/curves-1.2.0.tgz#92d7e12e4e49b23105a2555c6984d41733d65c35"
+  integrity sha512-oYclrNgRaM9SsBUBVbb8M6DTV7ZHRTKugureoYEncY5c65HOmRzvSiTE3y5CYaPYJA/GVkrhXEoF0M3Ya9PMnw==
+  dependencies:
+    "@noble/hashes" "1.3.2"
+
 "@noble/ed25519@^1.7.1":
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/@noble/ed25519/-/ed25519-1.7.3.tgz#57e1677bf6885354b466c38e2b620c62f45a7123"
   integrity sha512-iR8GBkDt0Q3GyaVcIu7mSsVIqnFbkbRzGLWlvhwunacoLwt4J3swfKhfaM6rN6WY+TBGoYT1GtT1mIh2/jGbRQ==
-
-"@noble/hashes@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.1.2.tgz#e9e035b9b166ca0af657a7848eb2718f0f22f183"
-  integrity sha512-KYRCASVTv6aeUi1tsF8/vpyR7zpfs3FUzy2Jqm+MU+LmUKhQ0y2FpfwqkCcxSg2ua4GALJd8k2R76WxwZGbQpA==
 
 "@noble/hashes@1.3.1":
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.3.1.tgz#8831ef002114670c603c458ab8b11328406953a9"
   integrity sha512-EbqwksQwz9xDRGfDST86whPBgM65E0OH/pCgqW0GBVzO22bNE+NuIbeTb714+IfSjU3aRk47EUvXIb5bTsenKA==
 
-"@noble/hashes@^1.3.2", "@noble/hashes@~1.3.0", "@noble/hashes@~1.3.1":
+"@noble/hashes@1.3.2", "@noble/hashes@^1.3.2", "@noble/hashes@~1.3.0", "@noble/hashes@~1.3.1":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.3.2.tgz#6f26dbc8fbc7205873ce3cee2f690eba0d421b39"
   integrity sha512-MVC8EAQp7MvEcm30KWENFjgR+Mkmf+D189XJTkFIlwohU5hcBbn1ZkKq7KVTi2Hme3PMGF390DaL52beVrIihQ==
-
-"@noble/secp256k1@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@noble/secp256k1/-/secp256k1-1.7.1.tgz#b251c70f824ce3ca7f8dc3df08d58f005cc0507c"
-  integrity sha512-hOUk6AyBFmqVrv7k5WAw/LpszxVbj9gGN4JRkIX52fdFAj1UA61KXmZDvqVEm+pOyec3+fIeZB02LYa/pWOArw==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1356,10 +1353,10 @@
   resolved "https://registry.yarnpkg.com/@railgun-community/curve25519-scalarmult-wasm/-/curve25519-scalarmult-wasm-0.1.5.tgz#edb5e40a8f1fdb7f7e0de1d04e8badabe41cb2a8"
   integrity sha512-Cur8uM/IdNW3WzUwdPloDG1CF0rpSBDWq2yGXJMZ7IMeBGdc4Jj0h9tnNMFRZ35ZuCVVbZ3yClmqSa4PsbpdGQ==
 
-"@railgun-community/engine@9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@railgun-community/engine/-/engine-9.1.2.tgz#570c04222dfa589869ad945a23d4bc2389cf1d86"
-  integrity sha512-GfE5AY+U/+0Gf4T5jmxE7EzEPJGwB7YOf684QTU5LnZtHGKvEL1jxTHloL0u6YfoLnPFAZW8GxfD+pWzKfAkBQ==
+"@railgun-community/engine@9.3.1":
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/@railgun-community/engine/-/engine-9.3.1.tgz#cfc14b6a7dd7d4c841e0fbe91ccf417e71414424"
+  integrity sha512-fTN/Ct+myrcecBZOlk8+pEdNZI0gy3s9aGeu54YKAn1TAMORH9udu9dQ3UFEkXS9P+EdcABSpbxPp/KIrp+N6Q==
   dependencies:
     "@noble/ciphers" "^0.4.0"
     "@noble/ed25519" "^1.7.1"
@@ -1374,7 +1371,7 @@
     chai-as-promised "^7.1.1"
     encoding-down "^7.1.0"
     ethereum-cryptography "^2.0.0"
-    ethers "github:Railgun-Community/ethers.js#v6.7.10"
+    ethers "6.13.1"
     fast-text-encoding "^1.0.6"
     levelup "^5.1.1"
     msgpack-lite "^0.1.26"
@@ -1391,15 +1388,15 @@
   resolved "https://registry.yarnpkg.com/@railgun-community/poseidon-hash-wasm/-/poseidon-hash-wasm-1.0.1.tgz#bfd3b3f915391a59486d8c9d632069f029e152d6"
   integrity sha512-zDAbMu095ZjMqsKIoyOnuKR4Zofnqqx4eTCtnA6qYglnexX5cadxItvJa3ozhDDTmFkDGAidDssQ7Pzl3wwLDA==
 
-"@railgun-community/shared-models@7.4.4":
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/@railgun-community/shared-models/-/shared-models-7.4.4.tgz#11059cd49222417961fc7016771cd5e687b0ac89"
-  integrity sha512-1rDbaGsLP7dEdcJxVZEWv4Ew0RZ54r/Ij74LJ0CZ505MYk118H4Cs6FFDHoFEHyEeEpnXYGDnjVtcEmCT7xQxA==
+"@railgun-community/shared-models@7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@railgun-community/shared-models/-/shared-models-7.5.0.tgz#d36d73740e32dbd5c21b2864e8c3db96e1241cb3"
+  integrity sha512-npSFFzSq2nSCLseEBZmLwJlZ4hMJArzEeM/DpqAAyxaTfznSHvpPIKmvEWorXVGjG+6xB7AY01TPGOq+3XHdcA==
 
-"@railgun-community/wallet@10.2.5":
-  version "10.2.5"
-  resolved "https://registry.yarnpkg.com/@railgun-community/wallet/-/wallet-10.2.5.tgz#fbc95a38a5b989959fb62d45b301948c477b5566"
-  integrity sha512-NPABRocfmN2Rf56ISKOwuyKvisLMeTB32yD8/0cQuaokrQO0pNAe97XBYM46/5jlBfSGGgg6GujyAvQpaKv5pA==
+"@railgun-community/wallet@10.3.3":
+  version "10.3.3"
+  resolved "https://registry.yarnpkg.com/@railgun-community/wallet/-/wallet-10.3.3.tgz#cef885628b76b3c547a0016f298a2e5752fb7bbe"
+  integrity sha512-dsQV7sjso7mhE15HvJliLEMLsuvUMN5wDt6hSP7nm8S+n6hsBx6tSzc5JAI7nPsi1UVDIW/f96pqMRRPRPgYxw==
   dependencies:
     "@graphql-mesh/cache-localforage" "^0.7.20"
     "@graphql-mesh/cross-helpers" "^0.3.4"
@@ -1412,8 +1409,8 @@
     "@graphql-mesh/types" "^0.91.14"
     "@graphql-mesh/utils" "^0.43.22"
     "@noble/ed25519" "^1.7.1"
-    "@railgun-community/engine" "9.1.2"
-    "@railgun-community/shared-models" "7.4.4"
+    "@railgun-community/engine" "9.3.1"
+    "@railgun-community/shared-models" "7.5.0"
     "@whatwg-node/fetch" "^0.8.4"
     assert "2.0.0"
     axios "1.7.2"
@@ -1421,7 +1418,7 @@
     buffer "^6.0.3"
     crypto-browserify "3.12.0"
     ethereum-cryptography "^2.0.0"
-    ethers "github:Railgun-Community/ethers.js#v6.7.10"
+    ethers "6.13.1"
     events "3.3.0"
     graphql "^16.6.0"
     stream-browserify "3.0.0"
@@ -3738,17 +3735,18 @@ ethereumjs-util@^7.1.1, ethereumjs-util@^7.1.2, ethereumjs-util@^7.1.5:
     ethereum-cryptography "^0.1.3"
     rlp "^2.2.4"
 
-"ethers@github:Railgun-Community/ethers.js#v6.7.10":
-  version "6.7.10"
-  resolved "https://codeload.github.com/Railgun-Community/ethers.js/tar.gz/fbaa9a55d88898585917767aea8df794fde3569b"
+ethers@6.13.1:
+  version "6.13.1"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.13.1.tgz#2b9f9c7455cde9d38b30fe6589972eb083652961"
+  integrity sha512-hdJ2HOxg/xx97Lm9HdCWk949BfYqYWpyw4//78SiwOLgASyfrNszfMUNB2joKjvGUdwhHfaiMMFFwacVVoLR9A==
   dependencies:
-    "@adraffy/ens-normalize" "1.9.2"
-    "@noble/hashes" "1.1.2"
-    "@noble/secp256k1" "1.7.1"
+    "@adraffy/ens-normalize" "1.10.1"
+    "@noble/curves" "1.2.0"
+    "@noble/hashes" "1.3.2"
     "@types/node" "18.15.13"
     aes-js "4.0.0-beta.5"
     tslib "2.4.0"
-    ws "8.5.0"
+    ws "8.17.1"
 
 ethjs-unit@0.1.6:
   version "0.1.6"
@@ -8275,10 +8273,10 @@ ws@8.13.0, ws@^8.12.0:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.13.0.tgz#9a9fb92f93cf41512a0735c8f4dd09b8a1211cd0"
   integrity sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==
 
-ws@8.5.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
-  integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
+ws@8.17.1:
+  version "8.17.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.1.tgz#9293da530bb548febc95371d90f9c878727d919b"
+  integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
 
 ws@^3.0.0:
   version "3.3.3"

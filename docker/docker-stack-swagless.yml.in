@@ -9,6 +9,10 @@ volumes:
 services:
   nwaku1:
     image: nwaku:latest
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
     hostname: 'nwaku1'
     ports:
       - '60000:60000'
@@ -27,6 +31,10 @@ services:
 
   broadcaster:
     image: broadcaster:latest
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
     hostname: 'broadcaster'
     environment:
       WAKU_RPC_URL: 'http://nwaku1:8546'

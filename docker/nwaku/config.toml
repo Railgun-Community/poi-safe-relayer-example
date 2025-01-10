@@ -12,20 +12,28 @@ rest-port=8546
 rest-admin=true
 #rest-private=true
 rest-relay-cache-capacity=3000
-keep-alive=true
+keep-alive=false
 staticnode=[
  # dev-node
   "/dns4/core.rootedinprivacy.com/tcp/60000/p2p/16Uiu2HAm4Ai1GzKv4EykU26ST1BPT4AHtABsYCLKrDG74GWX7D6H",
 ]
-dns-discovery=true
-discv5-discovery=true
+dns-discovery=false
+discv5-discovery=false
 discv5-bootstrap-node=[
   # dev-node
-  "enr:-Oi4QN0VJmJmJ5LmdLhZ-Cq9RnbnrtxxGk_sdUQzSXsCxx0mU6NqVrLnrGMbbtaL0fhU6kpbGp4QYDe6HbglzXl6jogBgmlkgnY0gmlwhIxSIGiKbXVsdGlhZGRyc7hAAB02GGNvcmUucm9vdGVkaW5wcml2YWN5LmNvbQbqYAAfNhhjb3JlLnJvb3RlZGlucHJpdmFjeS5jb20GH0DeA4Jyc4UAAAEAAYlzZWNwMjU2azGhAoHjwrFVyJASH7pxKYEEZ1Ob56Fn_r-iG36mOatTnZgSg3RjcILqYIN1ZHCCIyiFd2FrdTIP",
+  "enr:-Ou4QF5uFxGUG9WVUuysEWm8nketT_Pe6hG0P6NRxu9dTOwHWHWQgGFhm-vqmYwUvU0LtrW2LhSEO7iEHKD4l8JEd14BgmlkgnY0gmlwhIxSIGiKbXVsdGlhZGRyc7hAAB02GGNvcmUucm9vdGVkaW5wcml2YWN5LmNvbQbqYAAfNhhjb3JlLnJvb3RlZGlucHJpdmFjeS5jb20GH0DeA4Jyc48AAAYAAAABAAIAAwAEAAWJc2VjcDI1NmsxoQKB48KxVciQEh-6cSmBBGdTm-ehZ_6_oht-pjmrU52YEoN0Y3CC6mCFd2FrdTIN",
 ]
-max-connections=300
 shard=[0, 1, 2, 3, 4, 5]
 max-msg-size="512KiB"
 
 cluster-id=0 # needed when switch to 0.33 nwaku, pubsub-topic is deprecated
-ip-colocation-limit=30
+filter-subscription-timeout=3000
+filter-max-peers-to-serve=10000
+reliability=false
+num-shards-in-network=6
+
+peer-store-capacity=500
+max-connections=500
+max-relay-peers=500
+ip-colocation-limit=100
+peer-persistence=false

@@ -10,6 +10,10 @@ services:
   nwaku1:
     image: nwaku:latest
     hostname: 'nwaku1'
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
     ports:
       - '60000:60000'
       - '9000:9000'
@@ -35,6 +39,10 @@ services:
   broadcaster:
     image: broadcaster:latest
     hostname: 'broadcaster'
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
     environment:
       WAKU_RPC_URL: 'http://nwaku1:8546'
       LEPTON_DB: '/mnt/broadcaster.db'
